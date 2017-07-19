@@ -1,7 +1,3 @@
+require 'orm_adapter'
 require 'orm_adapter/her/version'
-
-module OrmAdapter
-  module Her
-    # Your code goes here...
-  end
-end
+require 'orm_adapter/her/adapter' if defined? Her::Model
